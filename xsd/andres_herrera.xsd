@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Elemento raíz -->
+    <xs:element name="Empleados">
+
+        <xs:complexType>
+            <xs:sequence>
+
+                <!-- Lista de empleados -->
+                <xs:element name="Empleado" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="Apellido" type="xs:string"/>
+                            <xs:element name="Correo" type="xs:string"/>
+                            <xs:element name="Salario" type="xs:decimal"/>
+                            <xs:element name="Departamento" type="xs:string"/>
+
+                        </xs:sequence>
+
+                        <!-- Atributo ID -->
+                        <xs:attribute name="id" type="xs:integer" use="required"/>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+</xs:schema>
