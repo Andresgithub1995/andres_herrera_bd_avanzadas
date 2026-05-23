@@ -23,3 +23,11 @@ Repositorio correspondiente al laboratorio de XML, XSD y XQuery utilizando Oracl
 - XSD
 - XPath
 - XQuery
+
+## Informe
+
+- La memoria explicativa del laboratorio se encuentra en la carpeta `docs/`
+
+## Repositorio
+
+https://github.com/Andresgithub1995/andres_herrera_bd_avanzadas
